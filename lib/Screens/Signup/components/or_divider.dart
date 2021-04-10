@@ -14,7 +14,7 @@ class OrDivider extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Text(
-              "OR",
+              "O",
               style: TextStyle(
                 color: kPrimaryColor,
                 fontWeight: FontWeight.w600,

@@ -5,6 +5,7 @@ import 'package:boletaapp/components/already_have_an_account_acheck.dart';
 import 'package:boletaapp/components/rounded_button.dart';
 import 'package:boletaapp/components/rounded_input_field.dart';
 import 'package:boletaapp/components/rounded_password_field.dart';
+import 'package:boletaapp/screens/home/home_screen.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -38,7 +39,16 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "Iniciar Sesión",
-              press: () {},
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return HomeScreen();
+                    },
+                  ),
+                );
+              },
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(
