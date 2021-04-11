@@ -16,14 +16,11 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "Bienvenido a Aidy",
+              "Bienvenido a Aidyy",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.05),
-            Image.asset(
-              "images/logo2.jpg",
-              width: size.width * 2,
-            ),
+            Image.asset('assets/images/logo2.jpg', width: 300, height: 100),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
               text: "Iniciar Sesión",
